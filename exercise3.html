@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exercise 1 | javascript</title>
+</head>
+<body>
+    <h1>exercise 1 | javascript</h1>
+    <p>ctrl + shif i</p>
+
+</body>
+<script type="text/javascript">
+
+    var nama = '';
+    var peran = '';
+
+    if ((nama == false) && (peran == false)){ //FALSE && FALSE
+
+            console.log('nama harus di isi!')
+    }
+    else if((nama == true) || (peran == false)){
+
+            console.log('Halo',nama,'Pilih peran mu untuk memulai game!')
+
+    }
+    else if( (nama !== true) && (peran !== true)){
+
+        console.log("Selamat datang di Dunia Proxytia,", nama)
+        console.log("Halo", peran , nama,"kamu dapat menyerang dengan senjatamu!")
+
+    }
+    else if((nama !== true) || (peran !== true)){
+
+        console.log("Selamat datang di Dunia Proxytia,", nama)
+        console.log("Halo", peran, nama,", kamu akan membantu temanmu yang terluka.")
+    }
+    else if((nama !== true) || (peran == true)){
+
+        console.log("Selamat datang di Dunia Proxytia,", nama)
+        console.log("Halo", peran, nama,", ciptakan keajaiban yang membantu kemenanganmu!")
+        
+    }else{
+        console.log('Terima Kasih')
+    }
+
+</script>
+</html>
