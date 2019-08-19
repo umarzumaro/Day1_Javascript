@@ -1,0 +1,21 @@
+1. newton second law
+	INPUT massa benda = m (kg)
+	INPUT percepatan benda = a (m/s2)
+	HITUNG resultan gaya = m x a
+
+2. tahun kabisat
+	INPUT tahun
+	PROSES hasil bagi tahun (tahun % 4) = 0?
+	jika hasilnya 0 maka tahun kabisat
+	jika tidak bukan tahun kabisat
+
+3. Laundry Day
+	masukan baju ke mesin cuci secara satu persatu sembari dihitung
+	jika semua baju sudah masuk ke mesin cuci
+	nyalakan mesin cuci
+
+4. periksa kuku
+	jumlah siswi 40
+	guru memeriksa kuku siswinya
+	jika ada kuku panjang maka guru menghukumnya
+	tapi jika tidak guru akan memujinya
